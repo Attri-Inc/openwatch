@@ -130,23 +130,6 @@ Full schema at `/docs` (auto-generated OpenAPI).
 
 ---
 
-## Project Status
-
-OpenWatch is **alpha** (v0.1). The schema and APIs may change before
-v1.0. See [VISION.md](VISION.md) for the roadmap.
-
----
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md). Bug reports, PRs, and design
-discussions welcome.
-
-## Security
-
-See [SECURITY.md](SECURITY.md). Report vulnerabilities privately to
-**security@attri.ai**.
-
 ## License
 
-Apache 2.0 — see [LICENSE](LICENSE).
+Apache 2.0
