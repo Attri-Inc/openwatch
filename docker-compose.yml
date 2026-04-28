@@ -1,0 +1,14 @@
+services:
+  openwatch:
+    build: .
+    ports:
+      - "8788:8788"
+    volumes:
+      - openwatch-data:/data
+    environment:
+      - OPENWATCH_DB=/data/openwatch.db
+      - OPENWATCH_HOST=0.0.0.0
+      - OPENWATCH_PORT=8788
+
+volumes:
+  openwatch-data:
