@@ -1,0 +1,29 @@
+name: Attri Dev Kit
+
+on:
+  push:
+    branches: [main, master, dev, dev-*, develop, qa, uat, staging]
+  pull_request:
+    branches: [main, master, dev, dev-*, develop, qa, uat, staging, release/*]
+
+concurrency:
+  group: attri-dev-kit-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pull-requests: write
+  security-events: write
+  id-token: write
+  attestations: write
+  actions: read
+
+jobs:
+  attri-dev-kit:
+    uses: Attri-Inc/attri-dev-kit/.github/workflows/gate.yml@v1
+    with:
+      tier: auto
+      languages: python
+      fail-on: high
+      pr-size-hard-limit: 5000
+    secrets: inherit  # pragma: allowlist secret
