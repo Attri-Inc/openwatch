@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Run OpenWatch in production with Attri
+    url: https://open-watch.ai/contact/
+    about: Managed deployment in your own cloud, setup help and support.
+  - name: Report a security issue
+    url: https://github.com/Attri-Inc/openwatch/security/policy
+    about: Please report vulnerabilities privately, not as a public issue.

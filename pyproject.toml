@@ -40,7 +40,8 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Attri-Inc/openwatch"
+Homepage = "https://open-watch.ai"
+Source = "https://github.com/Attri-Inc/openwatch"
 Issues = "https://github.com/Attri-Inc/openwatch/issues"
 
 [project.scripts]

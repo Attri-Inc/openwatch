@@ -11,7 +11,9 @@ security fixes.
 
 ## Reporting a vulnerability
 
-Please report security vulnerabilities privately Attri.
+Please report security vulnerabilities privately — either via GitHub's
+**Security → Report a vulnerability** (private advisory) on this repository, or
+by email to **engineering@attri.ai**.
 
 Include:
 - A description of the issue
